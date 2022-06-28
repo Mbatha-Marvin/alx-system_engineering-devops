@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `expr $BREATH ** $LOVE`
+let x=$BREATH**$LOVE | echo $x
