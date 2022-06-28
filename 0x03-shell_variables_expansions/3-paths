@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v -c '*/' $PATH
+grep -o -v -c */ <<< "$PATH" | wc -l
